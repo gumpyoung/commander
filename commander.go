@@ -2,11 +2,12 @@ package commander
 
 import (
 	"fmt"
-	"github.com/stretchr/objx"
 	"os"
 	"path"
 	"strings"
 	"sync"
+
+	"github.com/gumpyoung/objx"
 )
 
 // Default is used to register a default command that will be run when no
