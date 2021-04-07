@@ -1,5 +1,4 @@
-Commander - Drop and Give Me 20
-=========
+# Commander - Drop and Give Me 20
 
 Commander is a Go package that makes it easy to build and maintain command-line tools and provides
 an attractive alternative to the [flag](http://golang.org/pkg/flag/) package.
@@ -7,7 +6,7 @@ an attractive alternative to the [flag](http://golang.org/pkg/flag/) package.
     package main
 
     import (
-      "github.com/stretchr/commander"
+      "github.com/gumpyoung/commander"
     )
 
     func main() {
@@ -43,43 +42,39 @@ Commander and the built-in `flag` package.
 
 #### Flag
 
-Flag provides traditional interactions where you set parameters by name.  For example;
+Flag provides traditional interactions where you set parameters by name. For example;
 
     mycommand -action=create -name=Mat -age=29
     mycommand -action=update -id=123 -name=Mat
 
 #### Commander
 
-Commander provides a more modern and easy-to-read-and-write alternative.  For example;
+Commander provides a more modern and easy-to-read-and-write alternative. For example;
 
     mycommand create Mat 29
     mycommand update 123 Mat
 
 ## Get started
 
-  * Check out the [API Documentation](http://godoc.org/github.com/stretchr/commander).
+- Check out the [API Documentation](http://godoc.org/github.com/gumpyoung/commander).
 
 ## Features
 
-  * Automatic usage help generation
-  * Typed arguments
-  * Optional arguments
-  * Literal (and list literal) arguments
+- Automatic usage help generation
+- Typed arguments
+- Optional arguments
+- Literal (and list literal) arguments
 
+---
 
-
-------
-
-Contributing
-============
+# Contributing
 
 Please feel free to submit issues, fork the repository and send pull requests!
 
 When submitting an issue, we ask that you please include steps to reproduce the issue so we can see it on our end also!
 
+# Licence
 
-Licence
-=======
 Copyright (c) 2012 Mat Ryer and Tyler Bunnell
 
 Please consider promoting this project if you find it useful.

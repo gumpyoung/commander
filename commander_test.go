@@ -1,8 +1,8 @@
 package commander
 
 import (
-	"github.com/stretchr/objx"
-	"github.com/stretchr/testify/assert"
+	"github.com/gumpyoung/objx"
+	"github.com/gumpyoung/testify/assert"
 	"testing"
 )
 

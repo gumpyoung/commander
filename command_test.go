@@ -1,8 +1,8 @@
 package commander
 
 import (
-	"github.com/stretchr/objx"
-	"github.com/stretchr/testify/assert"
+	"github.com/gumpyoung/objx"
+	"github.com/gumpyoung/testify/assert"
 	"testing"
 )
 
@@ -15,9 +15,9 @@ const (
 )
 
 var (
-	rawCommandArrayOne   = []string{"create", "project", "stretchr"}
+	rawCommandArrayOne   = []string{"create", "project", "gumpyoung"}
 	rawCommandArrayTwo   = []string{"create", "account", "mat"}
-	rawCommandArrayThree = []string{"create", "project", "stretchr", "Awesome service!"}
+	rawCommandArrayThree = []string{"create", "project", "gumpyoung", "Awesome service!"}
 	rawCommandArrayFour  = []string{"create", "account", "mat", "Crazy Brit!"}
 	rawCommandArrayFive  = []string{"create", "account", "mat", "Crazy Brit!", "localhost"}
 	rawCommandArraySix   = []string{"create", "account", "mat", "Awesome Brit!", "localhost", "127.0.0.1", "google.com"}

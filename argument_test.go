@@ -1,7 +1,7 @@
 package commander
 
 import (
-	"github.com/stretchr/testify/assert"
+	"github.com/gumpyoung/testify/assert"
 	"testing"
 )
 
